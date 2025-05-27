@@ -84,6 +84,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/guam/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/guam/proprietary/vendor/etc/thermal-engine-guam.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-guam.conf \
     vendor/motorola/guam/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/motorola/guam/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/guam/proprietary/vendor/firmware/ICNL9911.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ICNL9911.bin \
     vendor/motorola/guam/proprietary/vendor/firmware/ILITEK_FW_HLT.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_HLT.hex \
     vendor/motorola/guam/proprietary/vendor/firmware/ILITEK_FW_TM.hex:$(TARGET_COPY_OUT_VENDOR)/firmware/ILITEK_FW_TM.hex \
@@ -223,6 +224,7 @@ PRODUCT_PACKAGES += \
     libtfestriping \
     libvidhance \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
+    cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
     goodix_ident \
