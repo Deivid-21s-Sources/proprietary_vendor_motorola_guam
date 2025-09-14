@@ -231,5 +231,6 @@ PRODUCT_PACKAGES += \
     cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
+    fpc_ident \
     goodix_ident \
     thermal-engine
