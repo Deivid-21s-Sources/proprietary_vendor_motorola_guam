@@ -211,7 +211,6 @@ PRODUCT_PACKAGES += \
     libgoodixhwfingerprint \
     libipebpsstriping \
     libjpege \
-    liblmutils-ns \
     libmctfengine_stub \
     libmmcamera_cac3 \
     libmmcamera_faceproc \
