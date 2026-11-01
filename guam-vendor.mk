@@ -140,14 +140,11 @@ PRODUCT_PACKAGES += \
     com.qti.node.customhwnode \
     com.qti.node.depth \
     com.qti.node.dewarp \
-    com.qti.node.dummyrtb \
-    com.qti.node.dummysat \
     com.qti.node.eisv2 \
     com.qti.node.eisv3 \
     com.qti.node.fcv \
     com.qti.node.gpu \
     com.qti.node.memcpy \
-    com.qti.node.remosaic \
     com.qti.node.stich \
     com.qti.node.swaidenoiser \
     com.qti.node.swcac \
@@ -173,8 +170,6 @@ PRODUCT_PACKAGES += \
     com.qtistatic.stats.af \
     com.qtistatic.stats.awb \
     com.qtistatic.stats.pdlib \
-    com.vidhance.node.processing \
-    com.vidhance.stats.aec_dmbr \
     com.fingerprints.extension@1.0 \
     com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
@@ -183,11 +178,8 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.fusion \
     com.qti.feature2.generic \
     com.qti.feature2.gs \
-    com.qti.feature2.hdr \
     com.qti.feature2.memcpy \
     com.qti.feature2.mfsr \
-    com.qti.feature2.qcfa \
-    com.qti.feature2.rawhdr \
     com.qti.feature2.rt \
     com.qti.feature2.serializer \
     com.qti.feature2.stub \
@@ -211,7 +203,6 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
-    libfcell \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
@@ -223,6 +214,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_faceproc2 \
     libmmcamera_lscv35 \
     libmmcamera_mfnr \
+    libmmcamera_mfnr_t4 \
     libmot_afd \
     libmot_lux_standardization \
     libofflinelog \
@@ -230,7 +222,6 @@ PRODUCT_PACKAGES += \
     libopestriping \
     libswregistrationalgo \
     libtfestriping \
-    libvidhance \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     cnss-daemon \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
